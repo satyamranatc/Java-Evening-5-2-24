@@ -1,0 +1,50 @@
+public class IfElseExample {
+
+    public static void main(String[] args) {
+        // Example 1: Simple if-else
+        int number = 10;
+        if (number > 0) {
+            System.out.println("The number is positive.");
+        } else {
+            System.out.println("The number is non-positive.");
+        }
+
+        // Example 2: if-else if-else ladder
+        int score = 75;
+        if (score >= 90) {
+            System.out.println("Excellent!");
+        } else if (score >= 70) {
+            System.out.println("Good job!");
+        } else {
+            System.out.println("Try harder.");
+        }
+
+        // Example 3: Nested if
+        int x = 5;
+        int y = 10;
+        if (x > 0) {
+            if (y > 0) {
+                System.out.println("Both x and y are positive.");
+            } else {
+                System.out.println("x is positive, but y is non-positive.");
+            }
+        } else {
+            System.out.println("x is non-positive.");
+        }
+
+        // Example 4: Multiple if statements
+        int a = 15;
+        if (a > 10) {
+            System.out.println("a is greater than 10.");
+        }
+
+        if (a % 2 == 0) {
+            System.out.println("a is an even number.");
+        }
+    }
+}
+
+
+
+
+Questions:- https://docs.google.com/document/d/1YefVNK_RQlTNUfNj1wbFR091OiML0Yan9zKuhKov7YA/edit
